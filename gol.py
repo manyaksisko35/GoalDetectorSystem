@@ -1,3 +1,4 @@
+#This code created by hasan alp güngör.
 import serial
 import threading
 import time
@@ -46,3 +47,4 @@ if __name__ == "__main__":
     t = threading.Thread(target=read_serial, args=(app,), daemon=True)
     t.start()
     app.run()
+
