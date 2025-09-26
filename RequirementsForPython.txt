@@ -1,0 +1,5 @@
+pip install pyserial
+pip install Kivy
+pip install pygame
+pip install threading
+pip install time
